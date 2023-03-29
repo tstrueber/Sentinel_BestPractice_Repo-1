@@ -1,4 +1,4 @@
-name: Deploy Content to LAW-WEU-1000-QAS [af5e575f-882d-49f1-b7e6-1118bbe3b489]
+name: Deploy Content to law-euw-monitoring-005 [af5e575f-882d-49f1-b7e6-1118bbe3b489]
 # Note: This workflow will deploy everything in the root directory.
 # To deploy content only from a specific path (for example SentinelContent):
 #   1. Add the target path to the "paths" property like such
@@ -21,8 +21,8 @@ jobs:
   deploy-content:
     runs-on: windows-latest
     env:
-      resourceGroupName: 'RG-WEU-MONITOR-1000-QAS'
-      workspaceName: 'LAW-WEU-1000-QAS'
+      resourceGroupName: 'RG-EUW-005'
+      workspaceName: 'law-euw-monitoring-005'
       workspaceId: 'ac26d3e3-457b-4fbb-9f9d-9baaa68ba3c9'
       directory: '${{ github.workspace }}'
       cloudEnv: 'AzureCloud'
