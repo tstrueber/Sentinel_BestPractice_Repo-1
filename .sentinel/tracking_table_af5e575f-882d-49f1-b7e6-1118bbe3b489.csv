@@ -1,3 +1,4 @@
 FileName, CommitSha
-sentinel-deployment.config,d0176f11505175ced27cc0d3ede6f708fe7e120e
 Detections/RDP_Bruteforce.json,cb23ea9a0f2a0407d977803cb83c44e90dbb6795
+Detections/NewRule1.json,8d2f2bb9ce7000ed5b6fcef3cc1963ed47b38edf
+sentinel-deployment.config,d0176f11505175ced27cc0d3ede6f708fe7e120e
